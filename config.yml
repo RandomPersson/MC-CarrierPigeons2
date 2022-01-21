@@ -1,0 +1,20 @@
+# item_used [ID] - Item used for sending letters.
+# pigeon_speed [m/s] - Speed at which the pigeon is travelling.
+# instant_distance [m/s] - If the recipient is within this range, the pigeon
+# will activate Ludicrous Speed and arrive at the recipient instantaneously.
+# guild_pigeon_delay [s] - For broadcasting messages to players in groups lower on the same track.
+# royal_pigeon_delay [s] - For broadcasting messages to all players.
+# 
+# Default player speeds: https://minecraft.gamepedia.com/Transportation
+# Some values:
+# - 7.14 m/s - Sprint-jumping
+# - 40.0 m/s - Boat on blue ice
+# - 67.3 m/s - Gliding down with Elytra 
+# - 80.0 m/s - Swimming with Dolphin's Grace and Depth Strider III
+# - 200+ m/s - Elytra + Trident with Riptide III during rain
+
+item_used: PAPER
+pigeon_speed: 20
+instant_distance: 50
+guild_pigeon_delay: 3
+royal_pigeon_delay: 3

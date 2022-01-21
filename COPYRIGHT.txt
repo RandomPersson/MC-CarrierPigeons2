@@ -1,0 +1,3 @@
+Copyright (C) 2020 RandomPersson <random.persson@mensa.org.pl>
+
+All rights reserved.

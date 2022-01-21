@@ -1,0 +1,37 @@
+name: CarrierPigeons
+version: 3.0
+description: Delayed DMs - they will arrive with a delay depending on distance to recipient.
+api-version: 1.16
+load: STARTUP
+author: RandomPersson
+authors: []
+website: https://discord.gg/RmDbKqq
+
+main: pl.org.mensa.rp.mc.CarrierPigeons.CarrierPigeonsPlugin
+database: false
+depend: []
+prefix: 
+softdepend: []
+loadbefore: []
+
+commands:
+  pigeon:
+    description: 
+    aliases: [carrierpigeons, cpigeons, bird, birb]
+    permission-message: The Tea God has not bestowed this power upon you.
+    usage: Use /<command> help for more info.
+permissions:
+  carrierpigeons.command.pigeon.help:
+    default: true
+  carrierpigeons.command.pigeon.info:
+    default: true
+  carrierpigeons.command.pigeon.send:
+    default: true
+  carrierpigeons.command.pigeon.send.color:
+    default: false
+  carrierpigeons.command.pigeon.guild:
+    default: false
+  carrierpigeons.command.pigeon.royal:
+    default: false
+  carrierpigeons.command.pigeon.reload:
+    default: false
